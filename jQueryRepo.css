@@ -1,0 +1,8 @@
+.highlight {
+	background-color: yellow;
+}
+textarea {
+	width: 400px;
+	height: 150px;
+	line-height: 18px;
+}
