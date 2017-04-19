@@ -12,7 +12,7 @@ $("#paragraph").click(function(){
 	$("#paragraph").hide();
 });
 
-$("h1").text("Hello");
+
 
 
 $(document).ready(function() {

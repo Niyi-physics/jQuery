@@ -12,14 +12,19 @@
   
   <style>
     .jumbotron {
-              background-color: #FFF;
+              background-color: lavender;
             }
+    body {
+          background-color: lavender;
+        }
   </style>
 </head>
 <body>
-  
-  <div class="jumbotron">
-    <div class="container">
+  <!--Jumbotron-->
+  <div class="jumbotron text-center">
+    <h1>jQuery Features. </h1>
+  </div><!--End Jumbotron-->
+  <div class="container">
       <section id="run">
         <input type="button" class="btn btn-primary" value="Hide" style="margin-top: 20px;" id="toggle_message" />
         <p id="message">You can see this paragraph.</p>
@@ -51,8 +56,11 @@
           <label>Email:  </label>
           <input type="text" placeholder="@example.com" />
           <br>
-          <label>Note:   </label>
-          <textarea type="text" placeholder="Write something to us..."></textarea>
+          <div class="pull right">
+            <label>Search:   </label>
+            <input type="text" placeholder="Write something to us..." id="user_text"/>
+            <span id="user_text_feedback"></span>
+          </div>
           <br><br>
           <input type="button" value="Sign Up"/>
         </form>
@@ -68,8 +76,6 @@
         <p>This is some more text</p>
       </section>
     </div>
-  </div>
-
 
 
 
